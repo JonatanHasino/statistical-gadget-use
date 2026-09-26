@@ -1,0 +1,141 @@
+\section{Basic Probability: Thinking About Possibilities}
+
+In addition to analyzing averages and relationships between variables,
+statistics also involves probability. Probability helps us answer
+questions such as:
+
+\enquote{How likely is a particular condition to occur?}
+
+In this study, there are 69 respondents, so these 69 respondents can be
+treated as the sample space for this probability example.
+
+To demonstrate the application of probability, the total X and Y scores
+were grouped into a high category using a threshold of $\ge 60$.
+
+Two events were defined:
+
+A = a respondent has a high X score ($X \ge 60$)
+
+B = a respondent has a high Y score ($Y \ge 60$)
+
+Based on the dataset of 69 respondents:
+
+30 respondents had $X \ge 60$
+
+9 respondents had $Y \ge 60$
+
+7 respondents had both $X \ge 60$ and $Y \ge 60$
+
+\subsection{Probability of A}
+
+Formula:
+\[
+P(A) = \frac{\text{Number of respondents with high X}}{\text{Total number of respondents}}
+\]
+\[
+P(A) = \frac{30}{69} = 0.435
+\]
+or approximately:
+\[
+P(A) = 43.48\%
+\]
+This means that, based on this dataset, the probability that a randomly
+selected respondent has a high X score is approximately 43.48\%.
+
+\subsection{Probability of B}
+
+Formula:
+\[
+P(B) = \frac{\text{Number of respondents with high Y}}{\text{Total number of respondents}}
+\]
+\[
+P(B) = \frac{9}{69} = 0.130
+\]
+or approximately:
+\[
+P(B) = 13.04\%
+\]
+This means that the probability that a randomly selected respondent has a
+high Y score is approximately 13.04\%.
+
+\subsection{Probability of A and B}
+
+We can also examine the probability that a respondent satisfies both
+conditions simultaneously, meaning that the respondent has both a high X
+score and a high Y score.
+
+Formula:
+\[
+P(A \cap B) = \frac{\text{Number of respondents belonging to both A and B}}{\text{Total number of respondents}}
+\]
+\[
+P(A \cap B) = \frac{7}{69} = 0.101
+\]
+or approximately:
+\[
+P(A \cap B) = 10.14\%
+\]
+This means that 7 out of 69 respondents had both X and Y scores in the
+high category.
+
+\subsection{Conditional Probability}
+
+After calculating the probabilities of the two events, we can use
+conditional probability to examine the probability of one event when
+another condition is already known.
+
+In this case, we want to know:
+
+What is the probability that a respondent has a high Y score given that
+the respondent has a high X score?
+
+Formula:
+\[
+P(B \mid A) = \frac{P(A \cap B)}{P(A)}
+\]
+Using the research data:
+\[
+P(B \mid A) = \frac{7/69}{30/69}
+\]
+\[
+P(B \mid A) = \frac{7}{30} = 0.233
+\]
+or approximately:
+\[
+P(B \mid A) = 23.33\%
+\]
+This means that among respondents with high X scores, approximately
+23.33\% also had high Y scores.
+
+This example demonstrates how conditional probability uses additional
+information to narrow the sample space. Before knowing the respondent's X
+category, the probability of having a high Y score was 13.04\%. After
+knowing that the respondent had a high X score, the conditional
+probability of having a high Y score was 23.33\%.
+
+Thus, the 69 respondents can be used not only to calculate averages and
+correlations, but also to demonstrate the concepts of probability,
+intersection, and conditional probability using real research data.
+
+\subsection{Probability Summary}
+
+\begin{table}[htbp]
+  \centering
+  \singlespacing
+  \caption{Probability Summary}
+  \label{tab:probability}
+  \begin{tabular}{ll}
+    \toprule
+    Calculation & Result \\
+    \midrule
+    Number of respondents & 69 \\
+    High X ($\ge 60$) & 30 \\
+    High Y ($\ge 60$) & 9 \\
+    High X and High Y & 7 \\
+    $P(A)$ & $30/69 = 43.48\%$ \\
+    $P(B)$ & $9/69 = 13.04\%$ \\
+    $P(A \cap B)$ & $7/69 = 10.14\%$ \\
+    $P(B \mid A)$ & $7/30 = 23.33\%$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}

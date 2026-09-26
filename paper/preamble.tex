@@ -1,0 +1,22 @@
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\usepackage{unicode-math}
+\setmathfont{TeX Gyre Termes Math}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage[a4paper,top=3cm,right=3cm,bottom=3cm,left=4cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\linespread{1}\fontsize{14}{17}\selectfont\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\linespread{1}\fontsize{12}{14.4}\selectfont\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\linespread{1}\fontsize{12}{14.4}\selectfont\bfseries\itshape}{\thesubsubsection}{1em}{}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xltabular}
+\usepackage[labelsep=period,font=bf,justification=centering,singlelinecheck=false]{caption}
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{refs.bib}
+\AtBeginBibliography{\singlespacing}
+\usepackage[hidelinks]{hyperref}
