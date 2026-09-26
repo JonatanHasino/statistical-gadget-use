@@ -6,8 +6,8 @@ questions such as:
 
 \enquote{How likely is a particular condition to occur?}
 
-In this study, there are 69 respondents, so these 69 respondents can be
-treated as the sample space for this probability example.
+In this study, there are \resN{} respondents, so these \resN{} respondents
+can be treated as the sample space for this probability example.
 
 To demonstrate the application of probability, the total X and Y scores
 were grouped into a high category using a threshold of $\ge 60$.
@@ -18,13 +18,13 @@ A = a respondent has a high X score ($X \ge 60$)
 
 B = a respondent has a high Y score ($Y \ge 60$)
 
-Based on the dataset of 69 respondents:
+Based on the dataset of \resN{} respondents:
 
-30 respondents had $X \ge 60$
+\resHighX{} respondents had $X \ge 60$
 
-9 respondents had $Y \ge 60$
+\resHighY{} respondents had $Y \ge 60$
 
-7 respondents had both $X \ge 60$ and $Y \ge 60$
+\resBoth{} respondents had both $X \ge 60$ and $Y \ge 60$
 
 \subsection{Probability of A}
 
@@ -33,14 +33,14 @@ Formula:
 P(A) = \frac{\text{Number of respondents with high X}}{\text{Total number of respondents}}
 \]
 \[
-P(A) = \frac{30}{69} = 0.435
+P(A) = \frac{\resHighX}{\resN} = \resPARatio
 \]
 or approximately:
 \[
-P(A) = 43.48\%
+P(A) = \resPA\%
 \]
 This means that, based on this dataset, the probability that a randomly
-selected respondent has a high X score is approximately 43.48\%.
+selected respondent has a high X score is approximately \resPA\%.
 
 \subsection{Probability of B}
 
@@ -49,14 +49,14 @@ Formula:
 P(B) = \frac{\text{Number of respondents with high Y}}{\text{Total number of respondents}}
 \]
 \[
-P(B) = \frac{9}{69} = 0.130
+P(B) = \frac{\resHighY}{\resN} = \resPBRatio
 \]
 or approximately:
 \[
-P(B) = 13.04\%
+P(B) = \resPB\%
 \]
 This means that the probability that a randomly selected respondent has a
-high Y score is approximately 13.04\%.
+high Y score is approximately \resPB\%.
 
 \subsection{Probability of A and B}
 
@@ -69,14 +69,14 @@ Formula:
 P(A \cap B) = \frac{\text{Number of respondents belonging to both A and B}}{\text{Total number of respondents}}
 \]
 \[
-P(A \cap B) = \frac{7}{69} = 0.101
+P(A \cap B) = \frac{\resBoth}{\resN} = \resPABRatio
 \]
 or approximately:
 \[
-P(A \cap B) = 10.14\%
+P(A \cap B) = \resPAB\%
 \]
-This means that 7 out of 69 respondents had both X and Y scores in the
-high category.
+This means that \resBoth{} out of \resN{} respondents had both X and Y
+scores in the high category.
 
 \subsection{Conditional Probability}
 
@@ -95,25 +95,26 @@ P(B \mid A) = \frac{P(A \cap B)}{P(A)}
 \]
 Using the research data:
 \[
-P(B \mid A) = \frac{7/69}{30/69}
+P(B \mid A) = \frac{\resBoth/\resN}{\resHighX/\resN}
 \]
 \[
-P(B \mid A) = \frac{7}{30} = 0.233
+P(B \mid A) = \frac{\resBoth}{\resHighX} = \resPBGivenARatio
 \]
 or approximately:
 \[
-P(B \mid A) = 23.33\%
+P(B \mid A) = \resPBGivenA\%
 \]
 This means that among respondents with high X scores, approximately
-23.33\% also had high Y scores.
+\resPBGivenA\% also had high Y scores.
 
 This example demonstrates how conditional probability uses additional
 information to narrow the sample space. Before knowing the respondent's X
-category, the probability of having a high Y score was 13.04\%. After
+category, the probability of having a high Y score was \resPB\%. After
 knowing that the respondent had a high X score, the conditional
-probability of having a high Y score was 23.33\%.
+probability of having a high Y score was \resPBGivenA\%.
 
-Thus, the 69 respondents can be used not only to calculate averages and
+Thus, the \resN{} respondents can be used not only to calculate averages
+and
 correlations, but also to demonstrate the concepts of probability,
 intersection, and conditional probability using real research data.
 
@@ -128,14 +129,14 @@ intersection, and conditional probability using real research data.
     \toprule
     Calculation & Result \\
     \midrule
-    Number of respondents & 69 \\
-    High X ($\ge 60$) & 30 \\
-    High Y ($\ge 60$) & 9 \\
-    High X and High Y & 7 \\
-    $P(A)$ & $30/69 = 43.48\%$ \\
-    $P(B)$ & $9/69 = 13.04\%$ \\
-    $P(A \cap B)$ & $7/69 = 10.14\%$ \\
-    $P(B \mid A)$ & $7/30 = 23.33\%$ \\
+    Number of respondents & \resN \\
+    High X ($\ge 60$) & \resHighX \\
+    High Y ($\ge 60$) & \resHighY \\
+    High X and High Y & \resBoth \\
+    $P(A)$ & $\resHighX/\resN = \resPA\%$ \\
+    $P(B)$ & $\resHighY/\resN = \resPB\%$ \\
+    $P(A \cap B)$ & $\resBoth/\resN = \resPAB\%$ \\
+    $P(B \mid A)$ & $\resBoth/\resHighX = \resPBGivenA\%$ \\
     \bottomrule
   \end{tabular}
 \end{table}

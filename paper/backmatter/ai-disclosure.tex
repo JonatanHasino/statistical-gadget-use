@@ -2,11 +2,12 @@
 
 \begin{itemize}
   \item \textbf{Tool:} ChatGPT, Opencode
-  \item \textbf{Purpose:} To assist in structuring the article, refining
-  explanations of statistical concepts, creating placeholders for
-  dataset-related sections, and editing the language.
-  \item \textbf{Verification:} The available statistical results were
-  retained, while numerical values requiring the raw dataset were
-  included based on the verified analysis and should be checked against
-  the original dataset before publication.
+  \item \textbf{Purpose:} To assist in structuring and editing the article,
+  and to assist in developing the Python analysis pipeline, the figures,
+  and the generated LaTeX statistics used in this repository.
+  \item \textbf{Verification:} All reported statistical values are produced
+  from the anonymized dataset (\texttt{data/respondents.csv}) by the
+  project's pipeline (\texttt{uv run gadget-analysis}) and are locked by
+  the repository's test suite, which checks the expected values and the
+  data contract.
 \end{itemize}

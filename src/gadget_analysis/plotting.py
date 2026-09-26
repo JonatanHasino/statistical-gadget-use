@@ -5,6 +5,7 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use("Agg")
+matplotlib.rcParams["pdf.fonttype"] = 42
 
 import matplotlib.pyplot as plt
 import polars as pl
@@ -19,14 +20,13 @@ def scatter_with_fit(df: pl.DataFrame, outdir: Path) -> Path:
     x = df["x_total"].to_list()
     y = df["y_total"].to_list()
     fitted = stats.linregress(x, y)
-    slope, intercept, r = fitted.slope, fitted.intercept, fitted.rvalue
+    slope, intercept = fitted.slope, fitted.intercept
     fig, ax = plt.subplots(figsize=(6.4, 4.8))
     ax.scatter(x, y, s=30, edgecolor="white", linewidth=0.4, zorder=3)
     line_x = [min(x), max(x)]
     ax.plot(line_x, [slope * value + intercept for value in line_x], color="crimson", linewidth=1.2)
     ax.set_xlabel(X_LABEL)
     ax.set_ylabel(Y_LABEL)
-    ax.set_title(f"Gadget Use vs Motivation and Social Interaction (r = {r:.2f})")
     fig.tight_layout()
     path = outdir / "scatter_plot.pdf"
     fig.savefig(path)

@@ -10,6 +10,10 @@ X = \text{Use of Gadgets as a Learning Medium}
 Y = \text{Students' Learning Motivation and Social Interaction}
 \]
 
+The study tests the null hypothesis ($H_0$) that there is no relationship
+between X and Y against the alternative hypothesis ($H_1$) that such a
+relationship exists.
+
 One way to examine their relationship is by calculating the correlation
 coefficient.
 
@@ -22,15 +26,24 @@ to $+1$ or $-1$, the stronger the observed linear relationship.
 
 The Pearson correlation coefficient obtained in this study was:
 \[
-r = 0.733
+r = \resR
 \]
 This indicates a strong positive relationship between variables X and Y.
 In other words, respondents with higher gadget-use scores tended to have
-higher scores for learning motivation and social interaction.
+higher scores for learning motivation and social interaction. The
+correlation matrix is visualized in Figure~\ref{fig:heatmap}.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{figures/correlation_heatmap.pdf}
+  \caption{Correlation matrix for gadget use (X) and learning motivation
+  and social interaction (Y).}
+  \label{fig:heatmap}
+\end{figure}
 
 The significance value was:
 \[
-\text{Sig.} = 0.000 < 0.05
+\text{Sig.} = \resSig < 0.05
 \]
 This indicates that the observed relationship was statistically
 significant within the tested sample and model.
@@ -43,7 +56,7 @@ establishing a definitive cause-and-effect relationship.
 
 \subsection{R-Square ($R^2$)}
 
-The analysis also produced an $R^2$ value of 0.537.
+The analysis also produced an $R^2$ value of \resRSquared{}.
 
 \subsection{Calculation 2 --- Converting $R^2$ into a Percentage}
 
@@ -52,18 +65,18 @@ Formula:
 R^2 \times 100\%
 \]
 \[
-0.537 \times 100\% = 53.66\%
+\resRSquared \times 100\% = \resRSquaredPct\%
 \]
-This means that approximately 53.66\% of the variation in Y can be
-explained by X within the research model.
+This means that approximately \resRSquaredPct\% of the variation in Y can
+be explained by X within the research model.
 
 The remaining variation can be calculated as:
 \[
-(1 - 0.537) \times 100\% = 46.34\%
+(1 - \resRSquared) \times 100\% = \resUnexplainedPct\%
 \]
-Therefore, approximately 46.34\% of the variation in Y is not explained
-by X within the model and may be associated with other factors that were
-not included in the analysis.
+Therefore, approximately \resUnexplainedPct\% of the variation in Y is not
+explained by X within the model and may be associated with other factors
+that were not included in the analysis.
 
 This result shows that X has a substantial statistical relationship with
 Y in the analyzed model. However, X is not the only factor associated
@@ -71,36 +84,35 @@ with variation in Y.
 
 \subsection{t-Test}
 
-The analysis also produced $t = 8.808$ with a significance value of
-0.000.
+The analysis also produced $t = \resT$ with a significance value of
+\resSig{}.
 
 Because:
 \[
-0.000 < 0.05
+\resSig < 0.05
 \]
 the result indicates that variable X has a statistically significant
-relationship with variable Y partially within the tested regression
-model.
+relationship with variable Y within the tested regression model.
 
 Therefore:
 \[
-\text{Sig. } 0.000 < 0.05 \rightarrow H_0 \text{ is rejected and } H_1 \text{ is accepted.}
+\text{Sig. } \resSig < 0.05 \rightarrow H_0 \text{ is rejected and } H_1 \text{ is accepted.}
 \]
 
 \subsection{F-Test}
 
-The F-test produced $F = 77.576$ with a significance value of 0.000.
+The F-test produced $F = \resF$ with a significance value of \resSig{}.
 
 Because:
 \[
-0.000 < 0.05
+\resSig < 0.05
 \]
 the result indicates that the regression model as a whole is
 statistically significant.
 
 Therefore:
 \[
-\text{Sig. } 0.000 < 0.05 \rightarrow \text{the research model is statistically significant.}
+\text{Sig. } \resSig < 0.05 \rightarrow \text{the research model is statistically significant.}
 \]
 
 \subsection{Bivariate Analysis Conclusion}
@@ -108,12 +120,13 @@ Therefore:
 Based on the results, the alternative hypothesis ($H_1$) is accepted. The
 analysis indicates a positive and statistically significant relationship
 between variables X and Y in the sample and model studied. This finding
-is supported by the Pearson correlation coefficient of 0.733 with a
-significance value of 0.000.
+is supported by the Pearson correlation coefficient of \resR{} with a
+significance value of \resSig{}.
 
-The $R^2$ value of 53.66\% indicates that 53.66\% of the variation in Y
+The $R^2$ value of \resRSquaredPct\% indicates that \resRSquaredPct\% of
+the variation in Y
 can be explained by X within the research model, while the remaining
-46.34\% is not explained by X within the model.
+\resUnexplainedPct\% is not explained by X within the model.
 
 Nevertheless, the statistical results need to be interpreted carefully. A
 statistically significant relationship does not automatically mean that X

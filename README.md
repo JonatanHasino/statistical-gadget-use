@@ -28,12 +28,23 @@ Outputs:
 - console summary of every statistic;
 - `results/results.json` (machine-readable);
 - `results/summary.md` (human-readable tables);
-- `figures/` (five PDFs, including the scatter plot used by the paper).
+- `figures/` (five PDFs; the paper consumes them from `paper/figures/`);
+- `paper/generated/stats.tex` (LaTeX macros the paper uses for its numbers).
 
 Paths are configurable:
 
 ```bash
 uv run gadget-analysis --data data/respondents.csv --results-dir results --figures-dir paper/figures
+```
+
+## Paper
+
+The LaTeX document in `paper/` consumes the generated macros and figures.
+After the data or the pipeline change, regenerate and rebuild:
+
+```bash
+uv run gadget-analysis --figures-dir paper/figures
+cd paper && latexmk
 ```
 
 ## Tests and lint
