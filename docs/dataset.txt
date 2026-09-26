@@ -1,0 +1,87 @@
+# DATASET ACCESS NOTICE
+
+Project:
+From Gadgets to Insights: A Statistical Analysis of Gadget Use as a Learning Medium and Its Relationship with Students’ Learning Motivation and Social Interaction
+
+Dataset Status:
+NOT PUBLICLY AVAILABLE
+
+The dataset used in this project is currently not open for public access. The dataset contains research data collected for academic and statistical analysis purposes and is intentionally excluded from this public repository.
+
+## ACCESS REQUEST
+
+For access to the original dataset or additional information regarding the dataset, please contact:
+
+Jonatan Lim Saklim
+Email: [jonatanlimsaklim749@gmail.com](mailto:jonatanlimsaklim749@gmail.com)
+
+Please include the following information when requesting access:
+
+* Full name
+* Institution / affiliation
+* Purpose of requesting the dataset
+* Intended use of the dataset
+* Any other relevant information regarding the request
+
+Access to the dataset is subject to approval by the dataset owner or authorized project members.
+
+## DATA PRIVACY
+
+The dataset is not publicly distributed in this repository in order to protect the privacy and confidentiality of the research participants.
+
+The data must not be:
+
+* Redistributed without permission
+* Published on public websites or repositories
+* Used for commercial purposes without authorization
+* Combined with other datasets for identification purposes
+* Used to attempt to identify individual respondents
+* Modified and redistributed as an official version of the research dataset
+
+Any approved access must be used only for the purpose stated in the access request.
+
+## COPYRIGHT AND OWNERSHIP
+
+© 2026 Jonatan and Aldo Intelligence Project Team. All Rights Reserved.
+
+The original dataset, including its structure, collected responses, and associated research data, is considered project-owned material and is protected by applicable copyright, privacy, and academic-use principles.
+
+No part of the original dataset may be copied, reproduced, redistributed, republished, uploaded to another public repository, or commercially exploited without prior written permission from the dataset owner or authorized project members.
+
+## ACADEMIC USE
+
+Approved users may use the dataset for legitimate academic, educational, or research purposes only, subject to the conditions provided by the dataset owner.
+
+Any publication, presentation, report, or derivative analysis based on an approved copy of the dataset should properly acknowledge the original project and dataset source.
+
+Users must not claim ownership of the original dataset or present the dataset as independently collected data.
+
+## PUBLIC REPOSITORY
+
+This GitHub repository contains the statistical analysis code, documentation, and related project materials.
+
+The absence of the original dataset from this repository is intentional.
+
+The following materials may be publicly available:
+
+* Statistical analysis scripts
+* Documentation
+* Research methodology
+* Statistical results
+* Visualization code
+* Project descriptions
+
+The original respondent-level dataset remains restricted and is not included in the public repository.
+
+## DISCLAIMER
+
+The information provided in this repository is intended for academic and educational purposes.
+
+Access to the restricted dataset does not automatically grant permission to redistribute, publish, or share the dataset with third parties.
+
+For questions regarding dataset ownership, access permissions, academic use, or citation requirements, please contact:
+
+Jonatan 
+[jonatanlimsaklim749@gmail.com](mailto:jonatanlimsaklim749@gmail.com)
+
+Last Updated: 2026
