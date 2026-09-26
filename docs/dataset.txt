@@ -4,13 +4,22 @@ Project:
 From Gadgets to Insights: A Statistical Analysis of Gadget Use as a Learning Medium and Its Relationship with Students’ Learning Motivation and Social Interaction
 
 Dataset Status:
-NOT PUBLICLY AVAILABLE
+ANONYMIZED ITEM-LEVEL RESPONSES (data/respondents.csv): PUBLICLY AVAILABLE
+ORIGINAL RAW DATASET: RESTRICTED
 
-The dataset used in this project is currently not open for public access. The dataset contains research data collected for academic and statistical analysis purposes and is intentionally excluded from this public repository.
+The anonymized, item-level response dataset used for the statistical
+analysis is published in this repository at `data/respondents.csv`
+(69 respondents, 29 questionnaire items, pseudonymous identifiers
+N1-N69, no names or other direct identifiers).
+
+The original full dataset, including any identifiable or unprocessed
+material, is not open for public access. It was collected for academic
+and statistical analysis purposes and is intentionally excluded from
+this public repository.
 
 ## ACCESS REQUEST
 
-For access to the original dataset or additional information regarding the dataset, please contact:
+For access to the original (restricted) dataset or additional information regarding the dataset, please contact:
 
 Jonatan Lim Saklim
 Email: [jonatanlimsaklim749@gmail.com](mailto:jonatanlimsaklim749@gmail.com)
@@ -27,9 +36,9 @@ Access to the dataset is subject to approval by the dataset owner or authorized 
 
 ## DATA PRIVACY
 
-The dataset is not publicly distributed in this repository in order to protect the privacy and confidentiality of the research participants.
+The original dataset is not publicly distributed in this repository in order to protect the privacy and confidentiality of the research participants. Only the anonymized item-level subset (`data/respondents.csv`) is published; it contains no names or other direct identifiers.
 
-The data must not be:
+The original dataset must not be:
 
 * Redistributed without permission
 * Published on public websites or repositories
@@ -52,6 +61,8 @@ No part of the original dataset may be copied, reproduced, redistributed, republ
 
 Approved users may use the dataset for legitimate academic, educational, or research purposes only, subject to the conditions provided by the dataset owner.
 
+The anonymized dataset published at `data/respondents.csv` may be used freely for academic, educational, and research purposes with attribution to this project and dataset source.
+
 Any publication, presentation, report, or derivative analysis based on an approved copy of the dataset should properly acknowledge the original project and dataset source.
 
 Users must not claim ownership of the original dataset or present the dataset as independently collected data.
@@ -64,6 +75,7 @@ The absence of the original dataset from this repository is intentional.
 
 The following materials may be publicly available:
 
+* Anonymized item-level response dataset (`data/respondents.csv`)
 * Statistical analysis scripts
 * Documentation
 * Research methodology
