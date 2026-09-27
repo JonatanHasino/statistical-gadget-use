@@ -64,3 +64,9 @@ tests/                      pytest suite with locked expected values
 docs/dataset.txt            dataset access notice
 paper/                      LaTeX write-up of the research
 ```
+## Article
+
+The full research article, including the methodology, statistical analysis,
+and interpretation of the results, is available on Medium:
+
+[**From Gadgets to Insights: A Statistical Analysis of Gadget Use as a Learning Medium and Its Relationship with Students' Learning Motivation and Social Interaction**](https://medium.com/@jonatanlimsaklim749/from-gadgets-to-insights-a-statistical-analysis-of-gadget-use-as-a-learning-medium-and-its-bba39bf7e9fb)
