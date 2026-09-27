@@ -18,6 +18,6 @@ The document consumes generated inputs (`generated/stats.tex` and
 Regenerate them with:
 
 ```bash
-uv run gadget-analysis --figures-dir paper/figures
+uv run gadget-analysis
 cd paper && latexmk
 ```

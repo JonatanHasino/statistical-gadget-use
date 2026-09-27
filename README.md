@@ -29,11 +29,10 @@ Outputs (all generated, all ignored by git):
 - console summary of every statistic;
 - `results/results.json` (machine-readable);
 - `results/summary.md` (human-readable tables);
-- `figures/` (five PDFs; use `--figures-dir paper/figures` when rebuilding
-  the paper);
+- `paper/figures/` (five PDFs the LaTeX sources consume);
 - `paper/generated/stats.tex` (LaTeX macros the paper uses for its numbers).
 
-Paths are configurable:
+Paths are configurable; the defaults are shown:
 
 ```bash
 uv run gadget-analysis --data data/respondents.csv --results-dir results --figures-dir paper/figures
@@ -45,7 +44,7 @@ The LaTeX sources in `paper/` consume the generated macros and figures.
 After the data or the pipeline change, regenerate and rebuild:
 
 ```bash
-uv run gadget-analysis --figures-dir paper/figures
+uv run gadget-analysis
 cd paper && latexmk
 ```
 

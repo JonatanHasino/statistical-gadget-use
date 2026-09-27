@@ -15,7 +15,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument("--data", default="data/respondents.csv", type=Path)
     parser.add_argument("--results-dir", default="results", type=Path)
-    parser.add_argument("--figures-dir", default="figures", type=Path)
+    parser.add_argument("--figures-dir", default="paper/figures", type=Path)
     parser.add_argument("--latex-tex", default="paper/generated/stats.tex", type=Path)
     args = parser.parse_args(argv)
 

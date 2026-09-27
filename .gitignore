@@ -24,4 +24,11 @@ __pycache__/
 *.run.xml
 *.synctex.gz
 *.xdv
-*.bbl-SAVE-ERROR
+*-SAVE-ERROR
+
+# Editor / OS temp files
+*~
+*.swp
+*.bak
+*.tmp
+.DS_Store
