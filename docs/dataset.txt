@@ -61,7 +61,7 @@ No part of the original dataset may be copied, reproduced, redistributed, republ
 
 Approved users may use the dataset for legitimate academic, educational, or research purposes only, subject to the conditions provided by the dataset owner.
 
-The anonymized dataset published at `data/respondents.csv` may be used freely for academic, educational, and research purposes with attribution to this project and dataset source.
+The anonymized dataset published at `data/respondents.csv` may be used freely for academic, educational, and research purposes with attribution to this project and dataset source. The published dataset is governed by this notice; it is not covered by the repository's CC BY-NC-ND content license.
 
 Any publication, presentation, report, or derivative analysis based on an approved copy of the dataset should properly acknowledge the original project and dataset source.
 

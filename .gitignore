@@ -1,7 +1,27 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 .ruff_cache/
+
+# Generated: Python pipeline
 /results/
 /figures/
+/paper/generated/
+
+# Generated: LaTeX
+/paper/main*.pdf
+/paper/figures/*.pdf
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.xdv
+*.bbl-SAVE-ERROR
