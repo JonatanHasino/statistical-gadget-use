@@ -1,0 +1,4 @@
+uv = "0.12"
+
+[settings]
+unstable-lockfile = true
